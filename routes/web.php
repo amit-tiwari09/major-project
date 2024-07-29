@@ -26,5 +26,8 @@ Route::get('/ddfg',function(){
      echo "named route";
 })->name('amit');
 
+Route::get('/khusi',function(){
+    echo "hello";
+});
 
 Route::get('/theme','DemoController@index');
