@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get("/products","productController@index")->name("product.index");
 
 Route::get("/hlo",function(){
-    return "hi this is me Amit Tiwari i am from kalaiya";
+    return "hi this is me Amit Tiwari i am from bara kaliaya nepal";
 });
 
 
