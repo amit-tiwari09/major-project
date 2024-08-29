@@ -17,14 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/demo', function () {
-    echo 'This is the demo route.';
+Route::get("/products","productController@index")->name("product.index");
+
+Route::get("/hlo",function(){
+    return "hi this is me Amit Tiwari i am from kalaiya";
 });
-
-
-Route::get('/ddfg',function(){
-     echo "named route";
-})->name('amit');
 
 
 Route::get('/theme','DemoController@index');
